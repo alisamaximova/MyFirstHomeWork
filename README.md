@@ -15,7 +15,7 @@ The program is written in the Windows operating system, in the Dev-C++ applicati
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
 as long as the character-by-character reading is not equal to the end of the line / file, the value iteration operator is called.
-```	char numeric;
+```     char numeric;
         while((numeric = getchar()) != EOF // setting a condition for the entered variable
              && numeric != '\n' 
              && numeric != '\0')
