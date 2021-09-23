@@ -30,16 +30,22 @@ padding: 0;
             {
 ```
 Spaces and "minus" characters are ignored:
-``php
-<?php phpinfo();?>
+``css
+body {
+margin: 0;
+padding: 0;
+}
 	case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-```html
-<input type="text"> 
+```css
+body {
+margin: 1;
+padding: 1;
+}
 	case '1':
         case '2':
         case '3':
@@ -55,8 +61,8 @@ case '0':
 The "." sign is replaced by "|":
 ```css
 body {
-margin: 0;
-padding: 0;
+margin: 2;
+padding: 2;
 }     
 	case '.':
             printf(" | "); // replacing characters
