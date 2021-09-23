@@ -16,7 +16,7 @@ The program is written in the Windows operating system, in the Dev-C++ applicati
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
 as long as the character-by-character reading is not equal to the end of the line / file, the value iteration operator switch case default is called. 
-```css   
+```c   
 	char numeric;
 	while((numeric = getchar()) != EOF // setting a condition for the entered variable
              && numeric != '\n' 
@@ -26,14 +26,14 @@ as long as the character-by-character reading is not equal to the end of the lin
             {
 ```
 Spaces and "minus" characters are ignored:
-```css
+```c
 	case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-```css
+```c
 	case '1':
         case '2':
         case '3':
@@ -47,13 +47,13 @@ case '0':
             break;
 ```
 The "." sign is replaced by "|":
-```css   
+```c   
 	case '.':
             printf(" | "); // replacing characters
             break;
 ``` 
 Otherwise, the program will inform us about the error:
-```css	
+```c	
 	default:
 	    printf("\n\nError\n\n"); // informing about an error
 	    exit(-1);
@@ -61,7 +61,7 @@ Otherwise, the program will inform us about the error:
     }
 ```
 Then the program terminates: 
-```css
+```c
     printf("\n");
     exit(0);
 ```
