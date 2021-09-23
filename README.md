@@ -15,13 +15,14 @@ The program is written in the Windows operating system, in the Dev-C++ applicati
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
 as long as the character-by-character reading is not equal to the end of the line / file, the value iteration operator is called.
-	char numeric;
+```	char numeric;
         while((numeric = getchar()) != EOF // setting a condition for the entered variable
              && numeric != '\n' 
              && numeric != '\0')
+```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-        case '1':
+```     case '1':
         case '2':
         case '3':
         case '4':
@@ -32,14 +33,17 @@ case '0':
         case '9':
             printf("%c", numeric);
             break;
+```
 Spaces and "minus" characters are ignored:
-        case ' ':
+```     case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
+```
 The "." sign is replaced by "|":
-        case '.':
+```     case '.':
             printf(" | "); // replacing characters
-            break; 
+            break;
+``` 
 Otherwise, the program will inform us about the error:
 ```	default:
 	    printf("\n\nError\n\n"); // informing about an error
