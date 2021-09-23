@@ -26,14 +26,14 @@ as long as the character-by-character reading is not equal to the end of the lin
             {
 ```
 Spaces and "minus" characters are ignored:
-```php
+```css
 	case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-```html
+```css
 	case '1':
         case '2':
         case '3':
@@ -47,13 +47,13 @@ case '0':
             break;
 ```
 The "." sign is replaced by "|":
-```   
+```css   
 	case '.':
             printf(" | "); // replacing characters
             break;
 ``` 
 Otherwise, the program will inform us about the error:
-```	
+```css	
 	default:
 	    printf("\n\nError\n\n"); // informing about an error
 	    exit(-1);
@@ -61,7 +61,7 @@ Otherwise, the program will inform us about the error:
     }
 ```
 Then the program terminates: 
-```
+```css
     printf("\n");
     exit(0);
 ```
