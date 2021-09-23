@@ -7,7 +7,7 @@
 > are handled (for example, if a number is read as a string, then terminate the program when the specified length is exceeded).
 > Input example: 10.05
 > Output example: 10 | 05"
----
+
 
 ### Project assembly:
 The program is written in the Windows operating system, in the Dev-C++ application in the C programming language.
