@@ -1,4 +1,4 @@
-<h1>Task condition (variant № 3):<h1>
+#Task condition (variant № 3):#
 "The user enters a floating-point number. 
 Read the number and output the integer and fractional parts separately.
 Provide for the possibility of leading zeros in the fractional part.
