@@ -10,9 +10,9 @@ int main()
 	      && numeric != '\0')
     {
         switch(numeric) 
-        {
-	    case ' ':
-	    case '-':
+		{
+    	case ' ':
+    	case '-':
 			break; // ignoring spaces and the minus sign
 		case '0':
 		case '1':
