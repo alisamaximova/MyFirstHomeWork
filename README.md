@@ -1,4 +1,4 @@
-# The first Homework on Functional Logic and Theory of Algorithms
+# The first Homework assignment on the subject: "Functional Logic and the Theory of Algorithms"
 ## *Task condition (variant № 3):*
 > "The user enters a floating-point number. 
 > Read the number and output the integer and fractional parts separately.
