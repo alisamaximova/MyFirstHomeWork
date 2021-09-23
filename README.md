@@ -11,7 +11,7 @@
 
 ### Project assembly:
 The program is written in the Windows operating system, in the Dev-C++ application in the C programming language.
-----
+
 
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
@@ -30,14 +30,16 @@ padding: 0;
             {
 ```
 Spaces and "minus" characters are ignored:
-```    
+``php
+<?php phpinfo();?>
 	case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-```     
+```html
+<input type="text"> 
 	case '1':
         case '2':
         case '3':
@@ -51,13 +53,21 @@ case '0':
             break;
 ```
 The "." sign is replaced by "|":
-```     
+```css
+body {
+margin: 0;
+padding: 0;
+}     
 	case '.':
             printf(" | "); // replacing characters
             break;
 ``` 
 Otherwise, the program will inform us about the error:
-```	
+```css
+body {
+margin: 0;
+padding: 0;
+}	
 	default:
 	    printf("\n\nError\n\n"); // informing about an error
 	    exit(-1);
@@ -65,7 +75,11 @@ Otherwise, the program will inform us about the error:
     }
 ```
 Then the program terminates: 
-```
+```css
+body {
+margin: 0;
+padding: 0;
+}
     printf("\n");
     exit(0);
 ```
