@@ -43,8 +43,8 @@ If the constant expression is equal to any digit in the range from 0 to 9, it is
 case '0':
 ```css
 body {
-margin: 1;
-padding: 1;
+margin: 0;
+padding: 0;
 }
 	case '1':
         case '2':
@@ -61,9 +61,9 @@ padding: 1;
 The "." sign is replaced by "|":
 ```css
 body {
-margin: 2;
-padding: 2;
-}     
+margin: 0;
+padding: 0;
+}   
 	case '.':
             printf(" | "); // replacing characters
             break;
