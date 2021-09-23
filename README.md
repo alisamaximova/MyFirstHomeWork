@@ -11,6 +11,7 @@
 
 ### Project assembly:
 The program is written in the Windows operating system, in the Dev-C++ application in the C programming language.
+---
 
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
@@ -56,7 +57,15 @@ Otherwise, the program will inform us about the error:
 	default:
 	    printf("\n\nError\n\n"); // informing about an error
 	    exit(-1);
+	}
+    }
 ```
+Then the program terminates: 
+```
+    printf("\n");
+    exit(0);
+```
+---
 ### Launch the project: 
 To start the project, you need to open the main.c file in the Dev-C++ application. 
 Next, you need to click on the "Compile and execute" button or press F11
