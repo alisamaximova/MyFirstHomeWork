@@ -15,13 +15,7 @@ The program is written in the Windows operating system, in the Dev-C++ applicati
 
 ### Explanation of the algorithm of the code:
 After entering a variable and reading it, we check it for the following conditions:
-as long as the character-by-character reading is not equal to the end of the line / file, the value iteration operator switch case default is called.
-```css
-body {
-margin: 0;
-padding: 0;
-}
-``` 
+as long as the character-by-character reading is not equal to the end of the line / file, the value iteration operator switch case default is called. 
 ```css   
 	char numeric;
 	while((numeric = getchar()) != EOF // setting a condition for the entered variable
@@ -32,14 +26,14 @@ padding: 0;
             {
 ```
 Spaces and "minus" characters are ignored:
-```
+```php
 	case ' ':
         case '-':
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
 case '0':
-```
+```html
 	case '1':
         case '2':
         case '3':
