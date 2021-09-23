@@ -41,10 +41,10 @@ The "." sign is replaced by "|":
             printf(" | "); // replacing characters
             break; 
 Otherwise, the program will inform us about the error:
-'''	default:
+```	default:
 	    printf("\n\nError\n\n"); // informing about an error
 	    exit(-1);
-'''
+```
 ### Launch the project: 
 To start the project, you need to open the main.c file in the Dev-C++ application. 
 Next, you need to click on the "Compile and execute" button or press F11
