@@ -22,7 +22,7 @@ margin: 0;
 padding: 0;
 }
 ``` 
-```   
+```css   
 	char numeric;
 	while((numeric = getchar()) != EOF // setting a condition for the entered variable
              && numeric != '\n' 
