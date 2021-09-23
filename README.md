@@ -69,5 +69,6 @@ Then the program terminates:
 ### Launch the project: 
 To start the project, you need to open the main.c file in the Dev-C++ application. 
 Next, you need to click on the "Compile and execute" button or press F11
+
 ![Screenshot](BeginProgram.png)
 
