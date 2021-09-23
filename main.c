@@ -35,5 +35,5 @@ int main()
 		}
 	}
 	printf("\n");
-	exit(0); // end of the program
+	exit(0);
 }
