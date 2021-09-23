@@ -5,11 +5,11 @@
 int main()
 {
 	char numeric;
-    while((numeric = getchar()) != EOF 
+    while((numeric = getchar()) != EOF // setting a condition for the entered variable
 		  && numeric != '\n' 
 		  && numeric != '\0')
 	{
-        switch(numeric)
+        switch(numeric) 
         {
         	case ' ':
         	case '-':
