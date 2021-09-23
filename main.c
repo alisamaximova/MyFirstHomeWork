@@ -13,7 +13,7 @@ int main()
         {
         	case ' ':
         	case '-':
-           		break;
+           		break; // ignoring spaces and the minus sign
         	case '0':
         	case '1':
         	case '2':
@@ -27,10 +27,10 @@ int main()
             	printf("%c", numeric);
             	break;
         	case '.':
-            	printf(" | ");
-            	break;
+            	printf(" | "); // replacing characters
+            	break; 
         	default:
-            	printf("\n\nError\n\n");
+            	printf("\n\nError\n\n"); // informing about an error
             	exit(-1);
         }
     }
