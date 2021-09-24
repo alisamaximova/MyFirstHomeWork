@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-int main()
+int main(void)
 {
     char numeric;
     while((numeric = getchar()) != EOF // setting a condition for the entered variable
