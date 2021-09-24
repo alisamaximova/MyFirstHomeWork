@@ -32,8 +32,8 @@ Spaces and "minus" characters are ignored:
             break; // ignoring spaces and the minus sign
 ```
 If the constant expression is equal to any digit in the range from 0 to 9, it is displayed on the screen:
-case '0':
 ```c
+	case '0':
 	case '1':
         case '2':
         case '3':
